@@ -35,6 +35,12 @@ nnoremap <a-p> "_diwP
 "-- Replace line with paste
 nnoremap <a-s-p> "_ddP"
 
+" Save file
+noremap <C-S> :w<CR>
+vnoremap <C-S> <C-C>:w<CR>
+inoremap <C-S> <C-O>:w<CR>
+
+
 " Alt keymaps
 nnoremap <a-d> "_diw
 nnoremap <a-c> "_ciw

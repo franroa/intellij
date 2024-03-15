@@ -11,27 +11,27 @@ let g:WhichKeyDesc_leader = "<leader> Leader key"
 
   "" Base Settings
 "" ========================================================
-source ~/.config/ideavim/_settings.ideavimrc
-source ~/.config/ideavim/_base_keymaps.ideavimrc
-source ~/.config/ideavim/_motions_and_navigation.ideavimrc
+source ~/.config/ideavim/_settings.vimrc
+source ~/.config/ideavim/_base_keymaps.vimrc
+source ~/.config/ideavim/_motions_and_navigation.vimrc
 
 "" Plugins
-source ~/.config/ideavim/_plugins.ideavimrc
+source ~/.config/ideavim/_plugins.vimrc
 
-source ~/.config/ideavim/a.ideavimrc " AI Assistant (leader a)
-source ~/.config/ideavim/b.ideavimrc " Buffers (leader b)
-source ~/.config/ideavim/c.ideavimrc " Code (leader c)
-source ~/.config/ideavim/d.ideavimrc " Debug (leader d)
-source ~/.config/ideavim/f.ideavimrc " Find and Files (leader f)
-source ~/.config/ideavim/g.ideavimrc " Git/Generate (leader g/G)
-source ~/.config/ideavim/k.ideavimrc " Kubernetes (leader k)
-source ~/.config/ideavim/m.ideavimrc " Menus (leader m)
-source ~/.config/ideavim/r.ideavimrc " Refactoring (leader r)
-source ~/.config/ideavim/s.ideavimrc " Search/Set(leader s)
-source ~/.config/ideavim/t.ideavimrc " run test (leader t)
-source ~/.config/ideavim/u.ideavimrc " UI/Usages run test (leader u/U)
-source ~/.config/ideavim/v.ideavimrc " Views (leader v)
-source ~/.config/ideavim/w.ideavimrc " Tabs/Windows (leader w)
+source ~/.config/ideavim/a.vimrc " AI Assistant (leader a)
+source ~/.config/ideavim/b.vimrc " Buffers (leader b)
+source ~/.config/ideavim/c.vimrc " Code (leader c)
+source ~/.config/ideavim/d.vimrc " Debug (leader d)
+source ~/.config/ideavim/f.vimrc " Find and Files (leader f)
+source ~/.config/ideavim/g.vimrc " Git/Generate (leader g/G)
+source ~/.config/ideavim/k.vimrc " Kubernetes (leader k)
+source ~/.config/ideavim/m.vimrc " Menus (leader m)
+source ~/.config/ideavim/r.vimrc " Refactoring (leader r)
+source ~/.config/ideavim/s.vimrc " Search/Set(leader s)
+source ~/.config/ideavim/t.vimrc " run test (leader t)
+source ~/.config/ideavim/u.vimrc " UI/Usages run test (leader u/U)
+source ~/.config/ideavim/v.vimrc " Views (leader v)
+source ~/.config/ideavim/w.vimrc " Tabs/Windows (leader w)
 
 " nmap <leader>1 <Action>(GoToTab1)
 " nmap <leader>2 <Action>(GoToTab2)

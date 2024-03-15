@@ -5,7 +5,7 @@ nmap <leader>tC <Action>(chooseRunConfiguration)
 let g:WhichKeyDesc_tl = "<leader>tl Run Last"
 nmap <leader>tl <Action>(Rerun)
 " nmap <leader>tT <Action>(RunTests)
-let g:WhichKeyDesc_tR = "<leader>tR Run All"
+let g:WhichKeyDesc_tt = "<leader>tt Run Class"
 nmap <leader>tR :/class<cr>:action RunClass<cr>
 let g:WhichKeyDesc_tr = "<leader>tr Run Nearest"
 nmap <leader>tr <Action>(RunClass)
