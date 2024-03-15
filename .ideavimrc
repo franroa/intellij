@@ -1,0 +1,9 @@
+" " https://github.com/JetBrains/ideavim/discussions/303?sort=top
+nnoremap \e :e ~/.ideavimrc<CR>
+nnoremap \r :action IdeaVim.ReloadVimRc.reload<CR>
+nmap \\v <Action>(VimActions)
+noremap <C-S> :w<CR>
+vnoremap <C-S> <C-C>:w<CR>
+inoremap <C-S> <C-O>:w<CR>
+
+source ~/.config/ideavim/final.ideavimrc
