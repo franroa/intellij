@@ -66,7 +66,7 @@ nnoremap cim j:action MethodUp<cr>]m<cr>v]M<bs>"_c
 
 " Add new empty lines
 nmap <Enter> mao<ESC>`a
-nmap <leader><Enter> maO<ESC>`a
+nmap <S-Enter> maO<ESC>`a
 
 "--  Class motions
 nnoremap [c :call search('\<class\>', 'bW')<cr> ^
@@ -117,9 +117,8 @@ map E ]w
 " nnoremap n nzz
 " nnoremap N Nzz
 
-    " better escape
-imap jk <Esc>
-vnoremap jk <Esc>
+" better escape
+" imap jk <Esc>
 
 " Easy visual indentation
 vnoremap < <gv

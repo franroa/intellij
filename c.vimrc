@@ -1,6 +1,8 @@
 let g:WhichKeyDesc_code = "<leader>c +code"
 nmap <leader>cf <Action>(ReformatCode)
 nmap <leader>cd <Action>(ShowErrorDescription)
+nmap <leader>ca <Action>(ShowIntentionActions)
+vmap <leader>ca <Action>(ShowIntentionActions)
 " TODO: Check this
 " map <leader>c <Action>(CommentByLineComment)
 " map <leader>C <Action>(CommentByBlockComment)

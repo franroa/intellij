@@ -11,12 +11,10 @@ set exchange
 Plug 'tpope/vim-commentary'		    " [count]gc{motion}, o_gc, v_gc, gcc
 Plug 'vim-scripts/ReplaceWithRegister'  " [count][{reg}]gr{motion}, [count][{reg}]grr, {Visual}[{reg}]gr
 
-
-" " highlight yank (bundle plugin)
-" set highlightedyank
-" let g:highlightedyank_highlight_duration = "1000"
-" let g:highlightedyank_highlight_color = "rgba(57, 197, 187, 155)"
-
+" highlight yank (bundle plugin)
+set highlightedyank
+let g:highlightedyank_highlight_duration = "300"
+let g:highlightedyank_highlight_color = "rgba(57, 197, 187, 155)"
 
 " text-object (bundle plugin)
 set vim-paragraph-motion

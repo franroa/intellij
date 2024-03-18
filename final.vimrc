@@ -32,6 +32,7 @@ source ~/.config/ideavim/t.vimrc " run test (leader t)
 source ~/.config/ideavim/u.vimrc " UI/Usages run test (leader u/U)
 source ~/.config/ideavim/v.vimrc " Views (leader v)
 source ~/.config/ideavim/w.vimrc " Tabs/Windows (leader w)
+source ~/.config/ideavim/x.vimrc " Diagnostics (leader x)
 
 " nmap <leader>1 <Action>(GoToTab1)
 " nmap <leader>2 <Action>(GoToTab2)
